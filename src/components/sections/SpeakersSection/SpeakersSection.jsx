@@ -85,7 +85,7 @@ const SpeakersSection = ({ showViewAll }) => {
                 </div>
 
                 <div className="speakers__filters">
-                    {['All', 'Committee', 'Featured', 'Poster Presenter', 'Student', 'Delegate', 'Plenary Speaker', 'Keynote Speaker', 'Invited Speaker'].map((category) => (
+                    {['All', 'Committee', 'Poster Presenter', 'Student', 'Delegate', 'Plenary Speaker', 'Keynote Speaker', 'Invited Speaker'].map((category) => (
                         <button
                             key={category}
                             className={`filter-btn ${activeCategory === category ? 'active' : ''}`}
